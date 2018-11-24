@@ -1,19 +1,19 @@
 name: MoneyAPI
 main: MoneyAPI\Main
 version: 1.0.0
-api: 1.1.0
+api: 3.0.0
 author : PawarenessC
 load: POSTWORLD
 description: API
 commands:
- money:
-  description: "money"
-  usage: " /money "
+  money:
+    description: "money"
+    usage: "/money"
 permissions:
- money:
-  default: true
-  description: "money"
-  children:
-   money.command:
+  money:
     default: true
     description: "money"
+    children:
+      money.command:
+        default: true
+        description: "money"
