@@ -1,0 +1,14 @@
+name: MoneyAPI
+main: MoneyAPI\Main
+version: 2.0.0
+api: 1.1.0
+author : PawarenessC
+load: POSTWORLD
+description: API
+commands:
+ money:
+  description: "money"
+  usage: " /money "
+ join:
+  description: "join"
+  usage: " /join "
